@@ -24,7 +24,6 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun  QrCodeScreen(modifier: Modifier = Modifier) {
-
     val context = LocalContext.current
     var scanText by remember { mutableStateOf("") }
 
